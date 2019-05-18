@@ -1,0 +1,286 @@
+---
+---
+
+html{
+  font-family: 'Montserrat', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#social {
+  padding-bottom: 50px;
+  float: right;
+}
+
+#social img {
+  width: 20px
+}
+
+
+.logo {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  text-align: center;
+  /* width:10px;
+  height: auto; */
+}
+
+/* header .logo {
+  background-image: url("{{ site.baseurl }}static/images/artboard1.png");
+} */
+
+.logo img {
+  width: 200px;
+  height: auto;
+}
+
+/*
+.navigation{
+text-align: center;
+display: inline-block;
+text-decoration: none;
+list-style-type: none;
+} */
+
+/* .navigation{
+text-align: center;
+display: inline-block;
+
+}
+
+.navigation ul {
+list-style-type: none;
+float: center;
+display: inline-block;
+}
+
+.navigation li {
+text-align: center;
+} */
+
+
+.navigation a{
+  padding:20px 30px;
+  color:black;
+  text-decoration: none;
+}
+
+
+.navigation {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  display: inline;
+  margin-right: 20px;
+  margin-left: 20px;
+
+}
+
+.navigation a:hover{
+  color:deepskyblue;
+  overflow: hidden;
+}
+
+
+.carosel img {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
+.carosel {
+  float: center;
+}
+
+
+.aboutme img {
+  width: 400px;
+  height: auto;
+}
+
+.aboutme {
+  padding-top: 150px;
+  align-items: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.textbox {
+  background-color: lightblue;
+  background-size: 360px 400px;
+  width: 360px;
+  height: 275px;
+  padding: 10px 46px 25px;
+  bottom: 0;
+  right: 0;
+  z-index: 9;
+  font-size: 12px;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: center;
+}
+
+.location2 {
+  width: 500px;
+  height: auto;
+}
+
+/* .location2 {
+text-align: center;
+}
+
+.location3 {
+float: right;
+} */
+
+
+/* <!-- FOOTER SECTION--> */
+
+.footer{
+  /* height: 150px; */
+  max-width: 100%;
+  padding: 10px;
+  background-color: #00AEEF;
+  margin-top: 15px;
+}
+
+.column2 {
+  float: center;
+  width:75%;
+}
+.logofooter {
+  float: left;
+  padding: 10px;
+
+}
+
+#socialfooter {
+  float: right;
+
+}
+
+#socialfooter img {
+  width: 20px
+
+}
+
+.column3 img {
+  width: 250px;
+}
+
+/* <!-- END OF OOTER SECTION--> */
+
+/* <!-- PAGE NAMES--> */
+
+.pagename {
+  font-size: 40px;
+  margin: 0px 0px;
+
+}
+
+/* <!-- ABOUT ME PAGE--> */
+
+.meetsarah img {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
+.abouttext {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 70px;
+  margin-right: 70px;
+  float: center;
+}
+
+.flex-container2 {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  justify-content: center;
+}
+
+/* <!-- END OF ABOUT ME PAGE--> */
+
+/* <!-- start of blog Images section --> */
+
+.blog-image-container  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+
+}
+
+.blog-image-container img {
+  width: 250px;
+  height: auto;
+
+}
+
+.blog-image-title {
+  text-align: center;
+  width: 250px;
+}
+
+.blog-image-title a {
+  text-decoration-line: none;
+  color: black;
+}
+
+.blog-image-title a:hover{
+  color:deepskyblue;
+  overflow: hidden;
+}
+
+.blog-image-item {
+  margin: 40px;
+  text-align: center;
+}
+
+/* <!-- end of blog Images section --> */
+
+.blogpost-title {
+  font-size: 30px;
+  color: deepskyblue;
+  text-align: center;
+}
+
+.blogpost-pictures {
+  text-align: center;
+
+
+}
+
+.blogpost-pictures img{
+  width: 500px;
+  height: auto;
+
+
+}
+
+.blogpost-content {
+  margin: 0px 100px;
+  float: center;
+}
+
+.pinterest {
+  text-align: center;
+}
